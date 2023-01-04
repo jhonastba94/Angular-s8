@@ -16,7 +16,7 @@
 <div *ngIf="resultado==true; then correcto else incorrecto"></div>
 
 <ng-template #correcto>
-    <app-correcto></app-correcto>
+    <app-correcto text="{{ usuario }}"></app-correcto>
     <p>{{ message }}</p>
 </ng-template>
 
