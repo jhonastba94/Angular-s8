@@ -15,7 +15,6 @@ export class ContentComponent implements OnInit {
   Validar(user:string, password:string){
     if(user == this.usuario && password == this.password){
       this.resultado = true;
-      this.message = 'Correcto';
     } else {
       this.resultado = false;
       this.message = 'Credenciales incorrectas. Inténtelo nuevamente.'
