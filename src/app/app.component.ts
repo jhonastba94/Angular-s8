@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 's8-my-app';
+  usuario = 'Angular';
+  password = '123456';
 }
