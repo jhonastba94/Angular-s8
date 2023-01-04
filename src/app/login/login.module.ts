@@ -3,7 +3,6 @@ import { CommonModule } from '@angular/common';
 import { TitleComponent } from './title/title.component';
 import { ContentComponent } from './content/content.component';
 import { ButtonComponent } from './button/button.component';
-import { IncorrectoComponent } from './incorrecto/incorrecto.component';
 import { CorrectoComponent } from './correcto/correcto.component';
 
 
@@ -13,7 +12,6 @@ import { CorrectoComponent } from './correcto/correcto.component';
     TitleComponent,
     ContentComponent,
     ButtonComponent,
-    IncorrectoComponent,
     CorrectoComponent
   ],
   imports: [
@@ -23,7 +21,6 @@ import { CorrectoComponent } from './correcto/correcto.component';
     TitleComponent,
     ContentComponent,
     ButtonComponent,
-    IncorrectoComponent,
     CorrectoComponent
   ]
 })
